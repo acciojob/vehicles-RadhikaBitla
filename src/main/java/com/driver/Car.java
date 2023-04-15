@@ -53,6 +53,7 @@ public class Car extends Vehicle {
     public void changeGear(int newGear){
         this.currentGear=newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
+
     }
 
     public void changeSpeed(int newSpeed, int newDirection){
@@ -60,3 +61,9 @@ public class Car extends Vehicle {
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
 }
+ /*   move method called - The speed is changed to: 100, and the direction is changed to: 30 degrees
+        steer method called - The direction is changed to: 60 degrees
+        move method called - The speed is changed to: 20, and the direction is changed to: 30 degrees
+        steer method called - The direction is changed to: 45 degrees
+        move method called - The speed is changed to: 10, and the direction is changed to: 45 degrees
+        steer method called - The direction is changed to: 45 degrees*/
