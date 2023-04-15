@@ -11,6 +11,14 @@ public class Vehicle {
 
     private int currentDirection;
 
+    public int getCurrentSpeed() {
+        return currentSpeed;
+    }
+
+    public int getCurrentDirection() {
+        return currentDirection;
+    }
+
     public Vehicle()
     {
         this.name="";
