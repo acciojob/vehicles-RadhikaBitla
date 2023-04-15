@@ -5,7 +5,8 @@ public class Vehicle {
     protected String name;
     protected int currentSpeed;
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
