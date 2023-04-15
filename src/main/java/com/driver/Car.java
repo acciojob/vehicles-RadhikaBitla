@@ -61,9 +61,3 @@ public class Car extends Vehicle {
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
 }
- /*   move method called - The speed is changed to: 100, and the direction is changed to: 30 degrees
-        steer method called - The direction is changed to: 60 degrees
-        move method called - The speed is changed to: 20, and the direction is changed to: 30 degrees
-        steer method called - The direction is changed to: 45 degrees
-        move method called - The speed is changed to: 10, and the direction is changed to: 45 degrees
-        steer method called - The direction is changed to: 45 degrees*/
